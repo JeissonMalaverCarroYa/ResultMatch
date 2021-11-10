@@ -1,0 +1,37 @@
+:root {
+    --team-background: rgb(49, 7, 66);
+    --team-color: white;
+    --score: rgb(116,249, 154);
+}
+
+.result {
+    background-color: var(--team-background);
+    color: var(--team-color);
+    display: inline-flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.result__uniform {
+    min-width: 5px;
+    min-height: 100%;
+}
+
+.result__container {
+    font-size: 30px;
+    padding: 0 10px;
+    text-transform: uppercase;
+}
+
+.result__team {
+    padding: 0 5px;
+}
+
+.result__score {
+    background-color: var(--score);
+    color: var(--team-background);
+    border-radius: 2px;
+    padding: 0 10px;
+    margin: 0 10px;
+    user-select: none;
+}
