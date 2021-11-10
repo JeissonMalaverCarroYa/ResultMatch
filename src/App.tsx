@@ -3,6 +3,7 @@ import ScoreTs from './components/ScoreTs'
 import ScoreJS from './components/ScoreJs'
 import ScoreJsPrototypes from './components/ScoreJsPrototypes'
 import Score from './components/score/Score'
+import ScoreLight from './components/score/ScoreLight'
 
 import './App.css'
 
@@ -40,8 +41,6 @@ function App() {
 
       <br></br>
 
-
-
       <h1>Con ArchivoLogic</h1>
       <div>
         <Score
@@ -49,6 +48,16 @@ function App() {
           visit= {{name: "Bre", score: 1, shirt: 'red'}}
         />
       </div>
+      <br></br>
+
+      <h1>Ruesando ArchivoLogic</h1>
+      <div>
+        <ScoreLight
+          local= {{name: "Liv", score: 3, shirt: 'red'}}
+          visit= {{name: "Che", score: 1, shirt: 'blue'}}
+        />
+      </div>
+
     </div>
   );
 }

@@ -1,0 +1,33 @@
+:root {
+    --team-color-light: white;
+    --score-light: black;
+}
+
+.score-light {
+    color: var(--team-color-light);
+    display: inline-flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.score-light__uniform {
+    min-width: 5px;
+    min-height: 100%;
+}
+
+.score-light__container {
+    font-size: 30px;
+    padding: 0 10px;
+    text-transform: uppercase;
+}
+
+.score-light__team {
+    padding: 0 5px;
+}
+
+.score-light__score {
+    background-color: var(--score-light);
+    color: var(--team-background-light);
+    border-radius: 2px;
+    user-select: none;
+}
