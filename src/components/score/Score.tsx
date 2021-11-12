@@ -3,6 +3,7 @@ import './Score.css'
 import ScoreLogic, { ScoreProps } from './ScoreLogic'
 
 
+import './Score.css'
 
 
 const Score = ({local, visit}: ScoreProps) => {

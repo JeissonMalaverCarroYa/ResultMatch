@@ -50,7 +50,16 @@ function App() {
       </div>
       <br></br>
 
-      <h1>Ruesando ArchivoLogic</h1>
+      <h1>Con ArchivoLogic</h1>
+      <div>
+        <Score
+          local= {{name: "Sun", score: 3, shirt: 'red'}}
+          visit= {{name: "She", score: 1, shirt: 'white'}}
+        />
+      </div>
+      <br></br>
+
+      <h1>Reusando ArchivoLogic</h1>
       <div>
         <ScoreLight
           local= {{name: "Liv", score: 3, shirt: 'red'}}

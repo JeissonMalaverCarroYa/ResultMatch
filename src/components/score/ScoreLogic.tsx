@@ -1,5 +1,4 @@
 import {useState} from 'react'
-import './Score.css'
 
 interface ResultScore {
     local: number,
