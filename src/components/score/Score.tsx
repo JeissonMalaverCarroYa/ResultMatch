@@ -21,11 +21,11 @@ const Score = ({local, visit}: ScoreProps) => {
             <div className="result__container">
                 <span className="result__team">{local.name}</span>
                 <span className="result__score">
-                    <span onClick={()=>incremenetLocalScore()}>
+                    <span className="result__score-local" onClick={()=>incremenetLocalScore()}>
                         {score.local}
                     </span>
                     -
-                    <span onClick={()=>incremenetVisitScore()}>
+                    <span className="result__score-visit" onClick={()=>incremenetVisitScore()}>
                         {score.visit}
                     </span>
                 </span>
